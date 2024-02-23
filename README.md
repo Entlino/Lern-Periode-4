@@ -4,18 +4,18 @@
 
 ## Grob-Planung
 
-1. Wo stehen Sie mit Ihren Noten? In welchen Modulen waren Sie besonders stark; in welchen sind die ungenügend? Welche davon sind besonders wichtig?
-2. Was hatten Sie sich am Ende von LP3 vorgenommen? Was war Ihr VBV? Wie könnten Sie diesen besonders gut üben?
-3. **Neu**: Was möchten Sie Neues lernen?
-4. Was wäre ein geeignetes Projekt für diese LP4?
+1. Immer noch gleich, gewisse Module sehr gut andere sind okay.
+2. In der nächsten Lern-Periode möchte ich wie in dieser Lern-Periode den ganzen Code möglichst verständlich im GitHub darstellen und erklären.
+3. Ich möchte lernen eine Datenbank in ein C# Programm zu intregieren.
+4. Ich möchte ein C# Programm entwicklen welches einem ermöglicht Ein/Ausgaben zu tracken welche dann in einer SQL-Datenbank speichern.
 
-## 20.2.2024
+## 23.2.2024
 
-✍️ Heute habe ich... (50-100 Wörter)
+Am heutigen Tage mir gedanken welches Projekt ich als nächstes angehen. Dabei bin ich 
 
-## 27.2.2024
+## 01.3.2024
 
-- [ ] Erstes Arbeitspaket
+- [ ] 
 - [ ] ...
 - [ ] Viertes AP
 
