@@ -17,19 +17,60 @@ Am heutigen Tage mir gedanken welches Projekt ich als nächstes angehen. Dabei h
 
 - [ ] https://csharp-hilfe.de/csharp-mit-sql-verbinden/  |  Dieses Tutorial in einer Test-Datei ausprobieren und versuchen umzusetzen. (1/2)
 - [ ] Tutorial weitermachen (2/2)
-- [ ] Console Applikation erstllen bei welcher man die Ein und Ausgaben eingeben kann.
-- [ ] SQL Datenbank in SQL erstellen.
+- [X] Console Applikation erstllen bei welcher man die Ein und Ausgaben eingeben kann.
+- [X] SQL Datenbank in SQL erstellen.
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --- | --- | --- | --- | --- |
-| 1   |-|hälfte der Tutorial|Hälfte funktioniert|     |
-| 2 |hälfte des Tutorials|andere hälfte|Datenbank ist mit |     |
-| 3 |Eingabe|System erkennt es|Kann es temporär abspeichern|     |
-| 4   |-|Projekt-Datenbank erstellt|Datenbank ist bereit zur benutzung|     |
+| 1   |-|hälfte der Tutorial|Hälfte funktioniert|Jain|
+| 2 |hälfte des Tutorials|andere hälfte|Datenbank ist mit |Jain|
+| 3 |Eingabe|System erkennt es|Kann es temporär abspeichern|Ja|
+| 4   |-|Projekt-Datenbank erstellt|Datenbank ist bereit zur benutzung|Ja|
 
-✍️ Heute habe ich... (50-100 Wörter)
+Am heutigen Tage habe ich zuerst damit begonnen das letzte Woche verlinkte Tutorial aufzuarbeiten. Da ich jedoch schneller gemerkt habe das dies einiges Komplizierter ist als ich erwartet habe und es mir Persöhnlich nicht allzu viel bringt den Code abzuschreiben habe ich zwar damit begonnen den Code zu verstehen und zu Kopieren bin jedoch noch nicht fertig. Als dann die weiteren Arbeitspakete anstanden habe ich mich dazu entschlossen das Tutorial erst einmal sein zu lassen und mich um die weiteren Arbeitspakete gekümmert, freie Zeit habe ich schliesslich wieder damit gefüllt am Tutorial zu arbeiten.  (94)
 
-☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen, und in der Spalte **Erfüllt?** einzutragen, ob Ihr Code die Test-Fälle erfüllt
+![image](https://github.com/Entlino/Lern-Periode-4/assets/111046353/4355fd33-8256-4ae4-8f89-79ce7d8db908)
+
+Bei dem Vorlagen Code habe ich einen sehr simplen Code verwendet welcher mir schliesslich hoffentlich behilflich ist die ganze Appklikation in eine WinForms Applikation umzuwandeln.
+
+
+In dem erwähnten Tutorial lernte ich das es Wichtig ist die Datenbank verbinding erstmals aufzubauen, dann die Daten zu transferieren und schliesslich die Verbindung wieder abgebrochen wird falls diese nicht mehr verwendet wird.
+
+Der untenstehenden Code habe ich fast 1 zu 1 vom dem Tutorial kopiert da es mir in diesem Falle wichtig war keinen Fehler zu machen und dies zum wichtigsten Teil gehört.
+```
+private void Connect(){
+
+   string connectionString = //Link zur Datenbank, inkl Benuter und Passwort für den Server auf dem eigenen Notebook.
+
+   SqlConnection connection = new SqlConnection(connectionString);
+
+   connection.Open();
+
+   // Hier Inhalte lesen/schreiben
+
+   connection.Close();
+
+}
+
+```
+
+Weiter habe ich noch gelernt das es für das Lesen und Schreiben sehr ähnlicher Code verwendet wird. Diesen verstanden habe ich jedoch nicht.
+
+## Arbeitspakete 8.3
+
+ - [ ] Schauen wie man in einer Datenbank lesen kann (Datenabfragen)
+ - [ ] Wie man in einer Datenbank schreiben kann (Dateneingabe)
+ - [ ] C# Code anpassen so das fehleingaben ignoriert werden
+ - [ ] C# Code anpassen das man die Gespeicherten Daten wieder abrufen kann.
+
+
+| Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
+| --- | --- | --- | --- | --- |
+|  1  | Datenbank ist verbunden | C# Code zum lesen | Inhalt der Datenbank |    |
+|  2  | Datenbank ist verbunden | C# Code zum schreiben | Der Datenbank werden neue Inhalte hinzugefügt. |    |
+|  3  | C# Code wird ausgeführt | Man gibt eine Fehleingabe ein | Fehleingabe wird ignoriert |    |
+|  4  | Eingaben sind erfolgt | Man möchte die Eingaben ansehen | Eingaben werden wiedergegeben |    |
+
 
 ## Reflexion
 
