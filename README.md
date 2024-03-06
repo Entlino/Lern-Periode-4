@@ -56,7 +56,12 @@ private void Connect(){
 
 Weiter habe ich noch gelernt das es für das Lesen und Schreiben sehr ähnlicher Code verwendet wird. Diesen verstanden habe ich jedoch nicht.
 
-## Arbeitspakete 8.3
+## 08.03.2024
+
+Heute hatte ich den Orientierungstag der Armee, somit konnte ich leider nicht an den Aufträgen arbeiten. Die Arbeitspakete wurde auf nächste Woche verschoben.
+
+
+## Arbeitspakete 15.03.2024
 
  - [ ] Schauen wie man in einer Datenbank lesen kann (Datenabfragen)
  - [ ] Wie man in einer Datenbank schreiben kann (Dateneingabe)
