@@ -79,10 +79,11 @@ Heute hatte ich den Orientierungstag der Armee, somit konnte ich leider nicht an
 
 Heute habe ich damit begonnen, eine Datenbank mit einen Code lesen und bearbeiten zu können. Als ich dies nach einige mal versuchen endlich geschafft habe hab ich damit weitergemacht das die Fehleingaben für die Frage am anfang ob man eine Ein oder Ausgabe tätigen möchte. Dies habe ich mithilfe einer Try-Catch Methode hinbekommen. Als ich danach an die wiederholung gegangen bin, bin ich leider aus Zeitgründen gescheitert.
 
-```
 
+## Arbeitspakete 22.03.2024
 
-```
+- [ ] Wiederholung einarbeiten
+- [ ] Module weiterarbeiten (aufholen)
 
 ## Reflexion
 
