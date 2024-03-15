@@ -71,11 +71,18 @@ Heute hatte ich den Orientierungstag der Armee, somit konnte ich leider nicht an
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --- | --- | --- | --- | --- |
-|  1  | Datenbank ist verbunden | C# Code zum lesen | Inhalt der Datenbank |    |
-|  2  | Datenbank ist verbunden | C# Code zum schreiben | Der Datenbank werden neue Inhalte hinzugefügt. |    |
-|  3  | C# Code wird ausgeführt | Man gibt eine Fehleingabe ein | Fehleingabe wird ignoriert |    |
-|  4  | Eingaben sind erfolgt | Man möchte die Eingaben ansehen | Eingaben werden wiedergegeben |    |
+|  1  | Datenbank ist verbunden | C# Code zum lesen | Inhalt der Datenbank |Ja|
+|  2  | Datenbank ist verbunden | C# Code zum schreiben | Der Datenbank werden neue Inhalte hinzugefügt. |Ja|
+|  3  | C# Code wird ausgeführt | Man gibt eine Fehleingabe ein | Fehleingabe wird ignoriert |Ja|
+|  4  | Eingaben sind erfolgt | Man möchte die Eingaben ansehen | Eingaben werden wiedergegeben |Nein|
 
+
+Heute habe ich damit begonnen, eine Datenbank mit einen Code lesen und bearbeiten zu können. Als ich dies nach einige mal versuchen endlich geschafft habe hab ich damit weitergemacht das die Fehleingaben für die Frage am anfang ob man eine Ein oder Ausgabe tätigen möchte. Dies habe ich mithilfe einer Try-Catch Methode hinbekommen. Als ich danach an die wiederholung gegangen bin, bin ich leider aus Zeitgründen gescheitert.
+
+```
+
+
+```
 
 ## Reflexion
 
