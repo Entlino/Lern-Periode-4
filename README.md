@@ -83,7 +83,21 @@ Heute habe ich damit begonnen, eine Datenbank mit einen Code lesen und bearbeite
 ## Arbeitspakete 22.03.2024
 
 - [ ] Wiederholung einarbeiten
-- [ ] Module weiterarbeiten (aufholen)
+- [x] Module weiterarbeiten (aufholen)
+
+Heute habe ich ausschliesslich an den Aufträgen für das Modul 187 gearbeitet, bei welchem ich die Aufträge, 0796, 0707, 0708 erledigt habe. Die einzelnen Aufträge haben sich mit den Themen, Energie, Internetverbindungen sowie den Grundlagen der Betriebssysteme. Die dazugehörige Dokumentation in welcher alle Aufträge dokumentiert sind bzw. wurden, habe ich als "Nachweis" auf GitHub hochgeladen. (55)
+
+
+## Arbeitspakete 05.04.2024
+
+- [ ] Wiederholung einarbeiten
+- [ ] Grundlegene Fehler beheben welche bis dahin entstanden sind
+
+| Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
+| --- | --- | --- | --- | --- |
+|  1  | Programm gestartet | Eingabe | Wiederholung wird abgefragt |   |
+|  2  | Programm gestartet | Eingaben der Beträgen | Keine Fehler vorhanden |   |
+
 
 ## Reflexion
 
