@@ -95,4 +95,24 @@ Heute habe ich ausschliesslich an den Aufträgen für das Modul 187 gearbeitet, 
 
 ## Reflexion
 
-Formen Sie Ihre Zusammenfassungen in Hinblick auf Ihren VBV zu einem zusammenhängenden Text von 100 bis 200 Wörtern (wieder mit Angabe in Klammern).
+In dieser Lernperiode hatte ich als Thema ein C# Projekt zu implementieren, welches nebenbei noch auf eine MS SQL-Datenbank zugreift und auf diesen Datenspeichern und Auslesen kann. Das Projekt an sich hat bisher nicht funktioniert, wie es sollte, jedoch habe ich glücklicherweise das Prinzip verstanden, wie das Ganze funktioniert. Dieses Prinzip werde ich nun versuchen zu erklären.
+Am Anfang muss man damit beginnen, erstmals die nötigen Informationen der Datenbank dem Programm zur Verfügung zu stellen, d.h. Name, Art, usw. Wenn dies geschafft ist, muss man mit einer weiteren Zeile die Verbindung zwischen Programm und Datenbank "öffnen". Sobald diese Öffnung stattgefunden hat, kann man mithilfe zwei weiterer Codeteilen entweder etwas in die Datenbank einfügen oder etwas auslesen.
+Sobald man alle nötigen Änderungen vorgenommen hat, kann man schlussendlich die Verbindung zwischen Datenbank und Programm trennen bzw. "schliessen".
+
+Mein Verbesserungsvorschlag dieser Lernperiode war folgender:
+(VBV): In der nächsten Lernperiode möchte ich wie in dieser Lernperiode den ganzen Code möglichst verständlich im GitHub darstellen und erklären.
+Ich würde sagen, ich habe diesen Verbesserungsvorschlag teilweise erreicht. 100 % kann ich dieser Aussage leider nicht zustimmen, da ich leider Screenshots anstatt des eingefügten Codes "abgegeben" habe, wieso ich dies gemacht habe, habe ich mir zum jetzigen Zeitpunkt unverständlich. Zudem muss ich jedoch sagen dass , das ich sonst den Code wie gewollt auf GitHub darstellen konnte.
+
+## Lern-Periode-5
+Wie mit Herrn Colic heute besprochen, möchte ich in der 5. und somit letzten Lern-Periode des 1. Lehrjahres etwas versuchen umzusetzen, was mir einerseits einen Vorsprung für ins 2te Lehrjahr gibt, aber mich anderseits auch fordert. 
+
+Mögliche Projekte könnte folgende sein:
+- Kryptografie in C# (Das Erstellen eines Programmes, welches Verschlüsselungen vornehmen kann.)
+- Multilingualer Translater (Einen Übersetzer, welcher mithilfe von Google oder Microsofts API's mehrere Sprachen übersetzen kann.)
+- Sehenswürdigkeiten Empfehler (Ein Tool, welches mithilfe von Google API's Sehenswürdigkeiten für einen Ort sucht und Informationen wie der Ansturm auf die Sehenswürdigkeit oder Kosten veranschaulicht.)
+
+Diese Programme würden vermutlich in einer Konsole-Applikation am besten funktionieren. Vor allem die ersten 2 wäre dies vermutlich das geeignete.
+
+## VBV
+
+Für den Verbesserungsvorschlag möchte ich in der letzten Lernperiode ausschliesslich an dem Projekt arbeiten und versuchen, auf Modularbeit zu verzichten. (360 Wörter)
