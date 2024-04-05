@@ -110,7 +110,7 @@ Mögliche Projekte könnte folgende sein:
 - Kryptografie in C# (Das Erstellen eines Programmes, welches Verschlüsselungen vornehmen kann.)
 - Multilingualer Translater (Einen Übersetzer, welcher mithilfe von Google oder Microsofts API's mehrere Sprachen übersetzen kann.)
 - Sehenswürdigkeiten Empfehler (Ein Tool, welches mithilfe von Google API's Sehenswürdigkeiten für einen Ort sucht und Informationen wie der Ansturm auf die Sehenswürdigkeit oder Kosten veranschaulicht.)
-- Spracherkennung (Programm kann von einem Text die Sprache erkennen.)
+- Spracherkennung (Programm kann von einem Text die Sprache erkennen.) <--
 
 Diese Programme würden vermutlich in einer Konsole-Applikation am besten funktionieren. Vor allem die ersten 2 wäre dies vermutlich das geeignete.
 
