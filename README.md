@@ -37,21 +37,15 @@ Bei dem Vorlagen Code habe ich einen sehr simplen Code verwendet welcher mir sch
 In dem erwähnten Tutorial lernte ich das es Wichtig ist die Datenbank verbinding erstmals aufzubauen, dann die Daten zu transferieren und schliesslich die Verbindung wieder abgebrochen wird falls diese nicht mehr verwendet wird.
 
 Der untenstehenden Code habe ich fast 1 zu 1 vom dem Tutorial kopiert da es mir in diesem Falle wichtig war keinen Fehler zu machen und dies zum wichtigsten Teil gehört.
-```
+
+```csharp
 private void Connect(){
-
    string connectionString = //Link zur Datenbank, inkl Benuter und Passwort für den Server auf dem eigenen Notebook.
-
    SqlConnection connection = new SqlConnection(connectionString);
-
    connection.Open();
-
    // Hier Inhalte lesen/schreiben
-
    connection.Close();
-
 }
-
 ```
 
 Weiter habe ich noch gelernt das es für das Lesen und Schreiben sehr ähnlicher Code verwendet wird. Diesen verstanden habe ich jedoch nicht.
